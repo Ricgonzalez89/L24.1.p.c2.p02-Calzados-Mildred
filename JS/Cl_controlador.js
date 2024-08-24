@@ -1,3 +1,18 @@
+/* 11. - CALZADOS "MILDRED"
+|* Calzados “Mildred” establece las siguientes políticas para sus vendedores: un sueldo base y
+|* cada vendedor tendrá una comisión del 25% sobre el monto vendido. De cada empleado se sabe:
+|* su código y monto vendido. Se requiere un programa que muestre por Vendedor: Sueldo Obtenido
+|* y por la Zapatería: b) Promedio de Ventas y la mayor venta realizada.
+|* Sueldo obtenido por el V001 es 1150
+|* Sueldo obtenido por el V002 es 630
+|* Sueldo obtenido por el V003 es 1327.50
+|* Sueldo obtenido por el V003 es 1117.50
+|* Promedio de ventas 3650
+|* Mayor venta realizada 4750
+|* La salida corresponde a los siguientes datos del vendedor (código del vendedor y monto
+|* vendido)
+|* (V001,150, 4000) (V002,130,2000) (V003,140,4750) (V004,155,3850)
+*/
 import Cl_vZapateria from "./Cl_vZapateria.js";
 import Cl_vVendedor from "./Cl_vVendedor.js";
 import Cl_mZapateria from "./Cl_mZapateria.js";
