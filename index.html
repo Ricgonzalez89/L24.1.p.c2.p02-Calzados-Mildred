@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Propuesto#11</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="mainForm">
+        <h1>Calzados "Mildred"</h1>
+        <table id="mainForm_tabla">
+            <tr>
+                <th>Código</th>
+                <th>Sueldo Base</th>
+                <th>Monto Venta</th>
+                <th>Sueldo Obtenido</th>
+            </tr>
+        </table>
+        <h3>Promedio de Ventas: Bs. <span id="mainForm_lblPromedioVenta">¿?</span></h3>
+        <h3>Mayor Venta Realizada: <span id="mainForm_lblMayorVenta">¿?</span></h3>
+        <button id="mainForm_btAgregar">Agregar Vendedor</button>
+    </section>
+
+    <section id="vendedorForm">
+        <h1>Datos del Vendedor</h1>
+        <input type="text" id="vendedorForm_inCod" placeholder="Código"></input>
+        <input type="text" id="vendedorForm_inSuelB" placeholder="Sueldo Base"></input>
+        <input type="text" id="vendedorForm_inMontVenta" placeholder="Monto de la Venta"></input>
+        <button id="vendedorForm_btAceptar">Aceptar</button>
+    </section>
+    
+</body>
+<script type="module">
+    import Cl_controlador from "./JS/Cl_controlador.js";
+    new Cl_controlador();
+</script>
+</html>
